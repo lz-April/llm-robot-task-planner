@@ -1,0 +1,13 @@
+Natural Language Instruction
+            ↓
+       LLM Planner
+            ↓
+      Structured JSON Plan
+            ↓
+      Plan Validator / Safety Checker
+            ↓
+     PyBullet Executor
+            ↓
+ Environment Feedback
+            ↓
+       Replanner

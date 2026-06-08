@@ -1,0 +1,7 @@
+openai
+langgraph
+langchain
+pydantic
+pybullet
+numpy
+python-dotenv
