@@ -1,6 +1,6 @@
 from typing import List
 
-from schemas import RobotPlan, SceneState, RobotAction, EXAMPLE_PLAN, EXAMPLE_SCENE
+from planner.schemas import RobotPlan, SceneState, RobotAction, EXAMPLE_PLAN, EXAMPLE_SCENE
 
 
 class PlanValidationError(Exception):

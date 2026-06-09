@@ -5,8 +5,8 @@ from typing import Optional
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from schemas import RobotAction, RobotPlan, SceneState, EXAMPLE_SCENE
-from validator import validate_plan, PlanValidationError
+from planner.schemas import RobotAction, RobotPlan, SceneState, EXAMPLE_SCENE
+from planner.validator import validate_plan, PlanValidationError
 
 
 SYSTEM_PROMPT = """
